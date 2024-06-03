@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #042440;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 600px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-links a {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  
+  
